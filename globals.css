@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.car-card {
+  border: 1px solid #000000;
+  padding: 16px;
+  margin: 8px;
+  background: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+  background: #000000;
+  color: #fff;
+}
+.centered-text {
+  text-align: center;       
+  font-size: 2rem;          
+  font-weight: bold;       
+  margin-top: 30px;       
+}
+.large-text {
+  font-size: 1rem; 
+} 
+.image-container {
+  display: flex;            
+  justify-content: space-between; /* Space between the images */
+  flex-wrap: wrap;         
+  margin: 0 -80px;  }
+  
+ 
+
+.image {
+  flex: 1 1 calc(50% - 30px); 
+  margin: 90px;             
+  max-width: 100%;          
+  height: auto;             
+}
+
+body {
+  background-color: #5b13d0 ;}
